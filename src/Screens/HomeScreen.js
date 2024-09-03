@@ -21,7 +21,7 @@ const HomeScreen  = () => {
 <div>
 <Carousel>
          <Carousel.Item>
-            <img
+            <img height="550px"
               className="d-block w-100"
               src="images/img1.jpg"
               alt="First slide"
@@ -29,7 +29,7 @@ const HomeScreen  = () => {
    
            </Carousel.Item>
            <Carousel.Item>
-           <img
+           <img height="550px"
               className="d-block w-100"
               src="images/img2.jpg"
               alt="Second slide"
@@ -39,7 +39,7 @@ const HomeScreen  = () => {
 
 
             <Carousel.Item>
-            <img
+            <img height="550px"
             className="d-block w-100"
             src="images/img3.jpg"
             alt="Third slide"
@@ -53,8 +53,9 @@ const HomeScreen  = () => {
 
 
 
-            
+
 </Carousel>
+<br/>
 </div>
 
 

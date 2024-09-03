@@ -21,6 +21,10 @@
 font-family: 'Times New Roman', Times, serif;
 }
 
+.p-style{
+  text-align: justify;
+}
+
 
 main{
   min-height: 80vh;
@@ -29,6 +33,7 @@ main{
 footer{
   background-color: rgb(223,199,168);
   padding: 10px;
+  margin-top: 6 rem;
 }
 
 marquee{
