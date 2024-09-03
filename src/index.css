@@ -20,3 +20,13 @@
 *{
 font-family: 'Times New Roman', Times, serif;
 }
+
+
+main{
+  min-height: 80vh;
+}
+
+footer{
+  background-color: rgb(223,199,168);
+  padding: 10px;
+}
