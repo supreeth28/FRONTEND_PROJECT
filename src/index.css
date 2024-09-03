@@ -30,3 +30,8 @@ footer{
   background-color: rgb(223,199,168);
   padding: 10px;
 }
+
+marquee{
+  margin-top: 1 rem;
+  font-size: 1.5rem;
+}
