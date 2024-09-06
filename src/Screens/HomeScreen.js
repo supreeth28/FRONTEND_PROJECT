@@ -1,5 +1,7 @@
 import React from 'react';
 import {Carousel  } from 'react-bootstrap';
+//import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 
@@ -8,13 +10,13 @@ const HomeScreen  = () => {
 
    return(
 <>
-
+{/*< Header/>*/}
 <div>
 
 <marquee>
 
     Welcome to NJTech Inc!
-    <a href="#">Click Here</a>
+   {/* <a href="#">Click Here</a> */}
 </marquee>
 </div>
 
@@ -56,6 +58,7 @@ const HomeScreen  = () => {
 
 </Carousel>
 <br/>
+
 </div>
 
 
