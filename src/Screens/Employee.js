@@ -10,7 +10,9 @@ const Employee = () => {
       const mockData = [
         { id: 1, name: 'MOHAMED (SHAN) MUKHTHAR', position: 'MANAGER' },
         { id: 2, name: 'DHIVAKAR BALASUBRAMANIYAM', position: 'US IT RECRUITER' },
-        { id: 3, name: 'M.SUPREETH', position: 'Junior Developer' }
+        { id: 3, name: 'M.SUPREETH', position: 'Junior Developer' },
+        { id: 4, name: 'KOUSHIK RAMAN SUBRAMANIAN', position: 'SENIOR DELIVERY MANAGER' }
+
        
       ];
       setEmployees(mockData);
@@ -32,4 +34,8 @@ const Employee = () => {
   );
 };
 
-export default Employee;
+export default Employee; 
+
+
+
+
