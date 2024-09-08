@@ -15,15 +15,20 @@ import Partner from './Screens/Partner';
 import Current from './Screens/Current';
 import Careers from './Screens/Careers';
 import Contact from './Screens/Contact';
-import Login from './Screens/Login';
-import Employee from './Screens/Employee';
+
+import SignUpPage from './Screens/SignUpPage';
+import LoginPage from './Screens/LoginPage';
+import ForgotPasswordPage from './Screens/ForgotPasswordPage';
+import EmployeeDetailsPage from './Screens/EmployeeDetailsPage';
+
+
 
 const router= createBrowserRouter(
 
   createRoutesFromElements(
 
 <Route path = '/' element = {<App/>}>
-     <Route index = {HomeScreen} path = '/' element ={< HomeScreen / > } />
+     <Route index = {HomeScreen} path = '/' element = {< HomeScreen / > } />
          <Route path='/about' element ={<AboutUs/>} />
          <Route path='/Application' element ={<Application/>} />
          <Route path='/It' element ={<It/>} />
@@ -33,8 +38,12 @@ const router= createBrowserRouter(
          <Route path='/Current' element ={<Current/>} />
          <Route path='/Careers' element ={<Careers/>} />
          <Route path='/Contact' element ={<Contact/>} />
-         <Route path='/Login' element ={<Login/>} />
-         <Route path='/Employee' element ={<Employee/>} />
+        {/* <Route path='/Login' element ={<Login/>} />
+         <Route path='/Employee' element ={<Employee/>} /> */}
+            <Route path='/LoginPage' element ={<LoginPage/>} />
+         <Route path='/SignUpPage' element ={<SignUpPage/>} />
+         <Route path='/ForgotPasswordPage' element ={<ForgotPasswordPage/>} />
+         <Route path='/EmployeeDetailsPage' element ={<EmployeeDetailsPage/>} />
 
 </Route>
 

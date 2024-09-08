@@ -13,7 +13,7 @@
 .logo-text-style{
 
  
-  margin: -21px 0px 0px 50px;
+  margin: -21px 0px 0px 0px;
 }
 
 
@@ -39,4 +39,32 @@ footer{
 marquee{
   margin-top: 1 rem;
   font-size: 1.5rem;
+}
+
+.EmployeeDetailsPage{
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #d0d0d0;
 }

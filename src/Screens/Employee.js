@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+{/* import React, { useState, useEffect } from 'react';
 
 const Employee = () => {
   const [employees, setEmployees] = useState([]);
@@ -34,7 +34,7 @@ const Employee = () => {
   );
 };
 
-export default Employee; 
+export default Employee; */}
 
 
 

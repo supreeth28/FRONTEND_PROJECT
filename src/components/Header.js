@@ -16,7 +16,7 @@ const Header = () => {
 
       <Navbar.Brand href="/">
     <Image className='logo-img-style' src= 'images/logo.jpg' alt="NJTECH" roundedCircle/>
-    <h6 className='logo-text-style'>NJTech INC</h6>
+    {/* <h6 className='logo-text-style'>NJTech Inc</h6> */}
     </Navbar.Brand>
       </LinkContainer>
     
@@ -27,11 +27,11 @@ const Header = () => {
 
        <LinkContainer to ='/'>
 
-      <Nav.Link href="#">HOME</Nav.Link>
+      <Nav.Link href="#">Home</Nav.Link>
       </LinkContainer>
       
       <LinkContainer to ='/about'>
-      <Nav.Link href="#link">ABOUT US</Nav.Link>
+      <Nav.Link href="#link">About</Nav.Link>
       </LinkContainer>
       
       < NavDropdown title="Services" id="basic-nav-dropdown">
@@ -52,34 +52,57 @@ const Header = () => {
       </NavDropdown>
 
       <LinkContainer to ='/Industry'>
-      <Nav.Link href="#link">INDUSTRY</Nav.Link>
+      <Nav.Link href="#link">Industry</Nav.Link>
       </LinkContainer>
 
 
-        <LinkContainer to ='/Partner'>
+        {/* <LinkContainer to ='/Partner'>
       <Nav.Link href="#link">PARTNER AND ALLIANCES</Nav.Link>
-      </LinkContainer>
+    </LinkContainer> */}
 
         
       <LinkContainer to ='/Current'>
-      <Nav.Link href="#link">CURRENT OPENINGS</Nav.Link>
+      <Nav.Link href="#link">Current Openings</Nav.Link>
       </LinkContainer>
 
       <LinkContainer to ='/Careers'>
-      <Nav.Link href="#link">CAREERS</Nav.Link>
+      <Nav.Link href="#link">Careers</Nav.Link>
       </LinkContainer>
 
       <LinkContainer to ='/Contact'>
-      <Nav.Link href="#link">CONTACT US</Nav.Link>
+      <Nav.Link href="#link">Contact</Nav.Link>
       </LinkContainer>
 
-      <LinkContainer to ='/Login'>
+      {/* <LinkContainer to ='/Login'>
       <Nav.Link href="#link">LOGIN</Nav.Link>
       </LinkContainer>
 
       <LinkContainer to ='/Employee'>
       <Nav.Link href="#link">EMPLOYEE</Nav.Link>
+    </LinkContainer> */}
+
+    
+      <LinkContainer to ='/SignUpPage'>
+      <Nav.Link href="#link">SignUpPage</Nav.Link>
       </LinkContainer>
+
+
+    
+      <LinkContainer to ='/LoginPage'>
+      <Nav.Link href="#link">LoginPage</Nav.Link>
+      </LinkContainer>
+
+    
+      
+      {/* <LinkContainer to ='/ForgotPasswordPage'>
+      <Nav.Link href="#link">ForgotPasswordPage</Nav.Link>
+  </LinkContainer> */}
+
+        <LinkContainer to ='/EmployeeDetailsPage'>
+      <Nav.Link href="#link">EmployeeDetailsPage</Nav.Link>
+</LinkContainer> 
+  
+
 
 
 
